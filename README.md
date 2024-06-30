@@ -9,7 +9,7 @@
 * MongoDB'de Migration kavramı kullanılmaz. Tablolar oluştrulup proje ayağa kaldırıldıktan sonra eşleşmeler sağlanır.
 * .NET Core projesinde MongoDB geliştirmesi yapabilmek için bu 3 paketin kurulu olması gerekmektedir.
 
-  ![image](https://github.com/BerkanDemiral/ECommerceWeb/assets/54038172/d2d5bc25-6779-4e6b-8252-bea481c239f0)
+  ![image](https://github.com/BerkanDemiral/ECommerceMicroService/assets/54038172/d2d5bc25-6779-4e6b-8252-bea481c239f0)
 
 ### 1.2 .Net Entity Tanımları ve MongoDB Kullanımı
 
