@@ -38,8 +38,8 @@ namespace ECommerceWeb.Catalog.Services.CategoryServices
 
         public async Task<GetByIdCategoryDto> GetByIdCategoryAsync(string id)
         {
-            var values = await _categoryCollection.Find<Category>(x => x.CategoryID == id).FirstOrDefaultAsync();
-            return _mapper.Map<GetByIdCategoryDto>(values);
+            var values = await _categoryCollection.Find<Category>(x => x.CategoryID == id).FirstOrDefaultAsync(); // veriyi önce entity içerisinde buluyoruz.
+            return _mapper.Map<GetByIdCategoryDto>(values); // sonra bulduğumuz veriyi mapliyoruz.
         }
 
         public async Task UpdateCategoryAsync(UpdateCategoryDto updateCategoryDto)
