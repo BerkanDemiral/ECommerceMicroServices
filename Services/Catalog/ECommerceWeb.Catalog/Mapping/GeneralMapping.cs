@@ -7,6 +7,7 @@ using ECommerceWeb.Catalog.Entities;
 
 namespace ECommerceWeb.Catalog.Mapping
 {
+    // SADECE DELETE İŞLEMİNDE(Service tarafında) MAPPİNG İŞLEMİNE GEREK YOKTUR UNUTMA !!!
     public class GeneralMapping : Profile
     {
         public GeneralMapping()
@@ -16,10 +17,10 @@ namespace ECommerceWeb.Catalog.Mapping
             CreateMap<Category, UpdateCategoryDto> ().ReverseMap();
             CreateMap<Category, GetByIdCategoryDto> ().ReverseMap();
 
-            CreateMap<Product, ResultProductDto>().ReverseMap();
-            CreateMap<Product, CreateProductDto>().ReverseMap();
-            CreateMap<Product, UpdateProductDto>().ReverseMap();
-            CreateMap<Product, GetByIdProductDto>().ReverseMap();
+            CreateMap<ProductDetail, ResultProductDto>().ReverseMap();
+            CreateMap<ProductDetail, CreateProductDto>().ReverseMap();
+            CreateMap<ProductDetail, UpdateProductDto>().ReverseMap();
+            CreateMap<ProductDetail, GetByIdProductDto>().ReverseMap();
 
             CreateMap<ProductDetail, ResultProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail, CreateProductDetailDto>().ReverseMap();

@@ -12,6 +12,6 @@ namespace ECommerceWeb.Catalog.Entities
         public string ProductImages2 { get; set; }
         public string ProductImages3 { get; set; }
         public string ProductId { get; set; }
-        public Product Product { get; set; }
+        public ProductDetail Product { get; set; }
     }
 }
